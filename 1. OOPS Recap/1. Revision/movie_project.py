@@ -1,5 +1,5 @@
 class Movie:
-    def __init__(self, movie_name, total_seats, ticket_price, booked_seats):
+    def __init__(self, movie_name, total_seats, ticket_price):
         self.movie_name = movie_name
         self.total_seats = total_seats
         self.ticket_price = ticket_price
